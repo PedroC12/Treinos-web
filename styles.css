@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    border: 0;
+}
+header{
+
+
+}
+
+#banner{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/back.jpg);
+    background-position-y: -200px; 
+    background-size: 100%;
+}
+
+#topbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    justify-content: flex-end;
+
+}   
+
+#topbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    padding: 0 3vh;
+}
+
+#topbar ul li{
+    padding: 0 10px;
+    color: white;
+    padding: 2vh; 
+    transition: 300ms;
+    height: 100%;
+}
+
+#topbar ul li:hover{
+    background-color: yellow;
+    transition: 300ms;
+}
